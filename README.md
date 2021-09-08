@@ -52,22 +52,21 @@ Examples of freely (under a given license) available data are given in `./datase
 
 | Hyperparameter                   | Default value | Possible values                                                  |
 |----------------------------------|---------------|------------------------------------------------------------------|
-| num_pivot_nodes                     | None           | int (None = use all nodes)                                                              |
-| verbose            | True             | bool                                                              |
+| num_pivot_nodes                     | None           | int (None = use all nodes) |
+| verbose            | True             | bool  |
 | batch_size                        | 64 | int |
 | num_epoch                          | 100         | int            |
 | learning_rate | 0.01  | float                                     |
 | stopping_nn (stopping criterion)                          | 10          | int       |
-| algorithm                      | "DNR"          | ['DNR','DNR-symbolic']                                                 |
+| algorithm                      | "DNR"          | ['DNR','DNR-symbolic']  |
 | damping (damping factor)                | 0.86             | float             |
-| epsilon (convergence constraint)		           | 1e-6	       | float						                              |
-| scaling_constant (numerical stability)                              | 10         | float                                                     |
-| spread_step                              | 20         | int                                                     |
-| max_steps (ranking)                             | 100000         | int                                                     |
-| hidden_size (nn)                             | 2         | int                                                     |
-| dropout                             | 0.6         | float
-  						|
-| spread_percent                             | 0.3         | float                                                     |
+| epsilon (convergence constraint)		           | 1e-6	       | float |
+| scaling_constant (numerical stability)                              | 10         | float  |
+| spread_step                              | 20         | int |
+| max_steps (ranking)                             | 100000         | int |
+| hidden_size (nn)                             | 2         | int |
+| dropout                             | 0.6         | float |
+| spread_percent                             | 0.3         | float |
 | device (Torch)                             | 'cpu'         | ['cuda','cpu'] |
 | memoization                             | True         | bool |
 | upper_memory_bound_gb                             | 16         | int |
