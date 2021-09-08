@@ -1,0 +1,2 @@
+# Node classification data sets
+Please cite the original data sources if you use these data sets (consult the DNR paper if needed). For additional questions please write to us. The data sets were gathered from the related embedding approaches' repositories, cleaned and re-formatted in the same (CSR) format for easier replicability. Citations are stated in Section 4 of the DNR paper. For additional citations, simply edit this README and open a *pull request*.
