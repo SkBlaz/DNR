@@ -1,11 +1,11 @@
 # Deep Node Ranking
 
-This is the repository of the DNR paper. short abstract:
+This is the repository of the DNR paper. Short abstract:
 
-```
-Network node embedding is an active research subfield of complex network analysis. This paper contributes a novel approach to learning network node embeddings and direct node classification using a node ranking scheme coupled with an autoencoder-based neural network architecture. The main advantages of the proposed Deep Node Ranking (DNR) algorithm are competitive or better classification performance, significantly higher learning speed and lower space requirements when compared to state-of-the-art approaches on 15 real-life node classification benchmarks. Furthermore, it enables exploration of the relationship between symbolic and the derived sub-symbolic node representations, offering insights into the learned node space structure.
-To avoid the space complexity bottleneck in a direct node classification setting, DNR computes stationary distributions of personalized random walks from given nodes in mini-batches, scaling seamlessly to larger networks. The scaling laws associated with DNR were also investigated on 1488  synthetic Erd\H{o}s-R\'enyi networks, demonstrating its scalability to tens of millions of links.
-```
+
+`Network node embedding is an active research subfield of complex network analysis. This paper contributes a novel approach to learning network node embeddings and direct node classification using a node ranking scheme coupled with an autoencoder-based neural network architecture. The main advantages of the proposed Deep Node Ranking (DNR) algorithm are competitive or better classification performance, significantly higher learning speed and lower space requirements when compared to state-of-the-art approaches on 15 real-life node classification benchmarks. Furthermore, it enables exploration of the relationship between symbolic and the derived sub-symbolic node representations, offering insights into the learned node space structure.
+To avoid the space complexity bottleneck in a direct node classification setting, DNR computes stationary distributions of personalized random walks from given nodes in mini-batches, scaling seamlessly to larger networks. The scaling laws associated with DNR were also investigated on 1488  synthetic Erd\H{o}s-R\'enyi networks, demonstrating its scalability to tens of millions of links.`
+
 
 ## DNR library
 The core algorithm is implemented as a simple-to-use Python library. Simply
@@ -64,9 +64,9 @@ Examples of freely (under a given license) available data are given in `./datase
 | scaling_constant (numerical stability)                              | 10         | float                                                     |
 | spread_step                              | 20         | int                                                     |
 | max_steps (ranking)                             | 100000         | int                                                     |
-
 | hidden_size (nn)                             | 2         | int                                                     |
-| dropout                             | 0.6         | float |
+| dropout                             | 0.6         | float
+  						|
 | spread_percent                             | 0.3         | float                                                     |
 | device (Torch)                             | 'cpu'         | ['cuda','cpu'] |
 | memoization                             | True         | bool |
