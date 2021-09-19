@@ -6,6 +6,21 @@ This is the repository of the DNR paper. Short abstract:
 `Network node embedding is an active research subfield of complex network analysis. This paper contributes a novel approach to learning network node embeddings and direct node classification using a node ranking scheme coupled with an autoencoder-based neural network architecture. The main advantages of the proposed Deep Node Ranking (DNR) algorithm are competitive or better classification performance, significantly higher learning speed and lower space requirements when compared to state-of-the-art approaches on 15 real-life node classification benchmarks. Furthermore, it enables exploration of the relationship between symbolic and the derived sub-symbolic node representations, offering insights into the learned node space structure.
 To avoid the space complexity bottleneck in a direct node classification setting, DNR computes stationary distributions of personalized random walks from given nodes in mini-batches, scaling seamlessly to larger networks. The scaling laws associated with DNR were also investigated on 1488  synthetic Erd\H{o}s-R\'enyi networks, demonstrating its scalability to tens of millions of links.`
 
+```
+@article{https://doi.org/10.1002/int.22651,
+author = {Škrlj, Blaž and Kralj, Jan and Konc, Janez and Robnik-Šikonja, Marko and Lavrač, Nada},
+title = {Deep node ranking for neuro-symbolic structural node embedding and classification},
+journal = {International Journal of Intelligent Systems},
+volume = {n/a},
+number = {n/a},
+pages = {},
+keywords = {complex networks, deep learning, network node embedding, node classification},
+doi = {https://doi.org/10.1002/int.22651},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/int.22651},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/int.22651},
+abstract = {Abstract Network node embedding is an active research subfield of complex network analysis. This paper contributes a novel approach to learning network node embeddings and direct node classification using a node ranking scheme, coupled with an autoencoder-based neural network architecture. The main advantages of the proposed Deep Node Ranking (DNR) algorithm are competitive or better classification performance, significantly higher learning speed and lower space requirements when compared to state-of-the-art approaches on 15 real-life structural node classification benchmarks. It also enables exploration of the relationship between symbolic and the derived sub-symbolic node representations, offering insights into the learned node space structure. To avoid the space complexity bottleneck in a direct node classification setting, DNR, if needed, computes stationary distributions of personalized random walks from given nodes in mini-batches, scaling seamlessly to larger networks. The scaling laws associated with DNR were also investigated by considering 1,488 synthetic Erdős-Rényi networks, demonstrating its scalability to tens of millions of links.}
+}
+```
 
 ## DNR library
 The core algorithm is implemented as a simple-to-use Python library. Simply
