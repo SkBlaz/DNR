@@ -91,7 +91,7 @@ Examples of freely (under a given license) available data are given in `./datase
 
 ## Other useful methods
 
-`obj.write_output_file(fname` -> creates a standard `.emb` file useful for benchmarking.
+`obj.write_output_file(fname)` -> creates a standard `.emb` file useful for benchmarking.
 
 ## Examples
 For additional examples, please consult `./examples`
