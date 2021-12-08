@@ -12,7 +12,7 @@ def parse_requirements(file):
 
 packages = [x for x in find_packages() if x != "test"]
 setup(name='dnrlib',
-      version='0.01',
+      version='0.02',
       description="Deep Node Ranking",
       url='https://github.com/skblaz/DNR',
       author='Blaž Škrlj',
